@@ -220,6 +220,49 @@ main > section {
 
 }
 
+/* Sponsor section styles */
+
+.content-container{
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.icon-container{
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+   
+
+}
+.icon-container img{
+
+    filter: grayscale(100%);
+
+}
+
+
+/* Footer Styles */ 
+
+footer{
+
+    background-color: #FFF4E7;
+    text-align: center;
+    margin-bottom: 13.5rem;
+    margin-top: 13.5rem;
+
+
+}
+footer p{
+    
+    margin: 38px 0;
+    font-size: 1.2rem;
+}
+
+
 
 /* Navbar and Banner mobile */
 
@@ -259,6 +302,13 @@ main > section {
         gap: 60px;
         
         
+    }
+    /* Sponsor Section */
+    .icon-container{
+
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center; 
+        gap: 40px;
     }
 
 
